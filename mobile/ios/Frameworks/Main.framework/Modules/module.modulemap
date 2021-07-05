@@ -1,0 +1,4 @@
+framework module "Main" {
+  header "Main.h"
+  export *
+}

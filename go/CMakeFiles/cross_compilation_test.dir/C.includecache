@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lucaruggieri/personal/testing/go/cross-compilation-test/test/c_test.c
+stdio.h
+-
+stdlib.h
+-
+main-darwin-10.12-amd64.h
+-
+
+main-darwin-10.12-amd64.h
+stddef.h
+-
+string.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
